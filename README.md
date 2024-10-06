@@ -184,3 +184,153 @@ it('Affiliate Page', () => {
 
 ## Author
 - Mohit Gupta
+
+-----------------------------------------------------------------------------------------------
+# Java Programming Concepts Project
+
+## Overview
+This project demonstrates key Java programming concepts including interface implementation, geometric shape calculations, and autoboxing/unboxing operations. It serves as an educational resource for understanding object-oriented programming in Java.
+
+## Table of Contents
+1. [Shape Implementation](#shape-implementation)
+2. [Autoboxing and Unboxing](#autoboxing-and-unboxing)
+3. [Project Structure](#project-structure)
+4. [How to Run](#how-to-run)
+5. [Concepts Covered](#concepts-covered)
+
+## Shape Implementation
+
+### Overview
+Demonstrates the use of interfaces and implementing classes to create a geometric shape calculator.
+
+### Components
+1. **Shape Interface**
+   ```java
+   interface Shape {
+       double area();
+       double perimeter();
+   }
+   ```
+
+2. **Implementing Classes**
+   - `Circle`
+   - `Rectangle`
+   - `Square`
+   - `Triangle`
+
+### Features
+- Calculation of area and perimeter for different shapes
+- Implementation of interface methods
+- Use of constructors for initialization
+- Display methods for each shape
+
+### Example Usage
+```java
+Circle circle = new Circle(5.0);
+circle.display();
+
+Rectangle rectangle = new Rectangle(4.0, 6.0);
+rectangle.display();
+```
+
+## Autoboxing and Unboxing
+
+### Overview
+Demonstrates automatic conversion between primitive types and their corresponding wrapper classes.
+
+### Features
+- Autoboxing: Converting primitives to wrapper objects
+- Unboxing: Converting wrapper objects back to primitives
+- Examples with multiple data types (int, double)
+
+### Example Usage
+```java
+// Autoboxing
+int primitiveInt = 10;
+Integer autoboxedInteger = primitiveInt;
+
+// Unboxing
+Integer autoboxedIntValue = 20;
+int unboxedInt = autoboxedIntValue;
+```
+
+## Project Structure
+```
+Project_Construct_Week/
+├── ShapeDemo.java
+├── AutoboxingUnboxing.java
+└── README.md
+```
+
+## How to Run
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Java IDE (Eclipse, IntelliJ IDEA) or command line compiler
+
+### Running the Shape Demo
+```bash
+javac Project_Construct_Week/ShapeDemo.java
+java Project_Construct_Week.ShapeDemo
+```
+
+### Running the Autoboxing/Unboxing Demo
+```bash
+javac Project_Construct_Week/AutoboxingUnboxing.java
+java Project_Construct_Week.AutoboxingUnboxing
+```
+
+## Concepts Covered
+
+### 1. Object-Oriented Programming
+- Interfaces
+- Class implementation
+- Method overriding
+- Encapsulation
+
+### 2. Java Type System
+- Primitive types
+- Wrapper classes
+- Automatic type conversion
+
+### 3. Mathematical Concepts
+- Geometric formulas
+- Math class usage
+- Precision in calculations
+
+## Example Output
+
+### Shape Demo
+```
+Circle:
+Radius: 5.0
+Area: 78.53981633974483
+Perimeter: 31.41592653589793
+
+Rectangle:
+Width: 4.0, Height: 6.0
+Area: 24.0
+Perimeter: 20.0
+...
+```
+
+### Autoboxing/Unboxing Demo
+```
+Autoboxing Example:
+Primitive int: 10
+Autoboxed Integer: 10
+
+Unboxing Example:
+Autoboxed Integer: 20
+Unboxed int: 20
+...
+```
+
+## Learning Outcomes
+- Understanding interface implementation in Java
+- Practicing object-oriented design principles
+- Learning about Java's type system and automatic conversions
+- Implementing mathematical concepts in programming
+- 
+## Author
+- Mohit Gupta
